@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282e34;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.875em 1.0em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #6C7A89;
+}
+
+@media screen and (max-width: 600px) {
+  ul li {
+    float: none;
+  }
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#img1 {
+  background-image: url('img/spinnaker-night.jpg');
+  min-height: 100%;
+}
+
+#img2 {
+  background-image: url('img/sunset.jpg');
+  min-height: 100%;
+}
+
+#img3 {
+  background-image: url('img/seaview.jpg');
+  min-height: 100%;
+}
+
+#img4 {
+  background-image: url('img/spinnaker-day.jpg');
+  min-height: 100%;
+}
+
+.section {
+  background-color: #282e34;
+  color: #ddd;
+  text-align: center;
+  padding: 2.188em 4.375em;
+}
+
+.title {
+  padding: 0.625em;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.688em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+text .border .trans {
+  background-color: transparent;
+}
+
+.gallery {
+  background-color: #282e34;
+  display: inline-block;
+  margin: 0.313em auto;
+  border: 1px solid #ccc;
+  width: 11.25em;
+  height: 10.625em;
+
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+   width: 11.25em;
+   height: 7.5em;
+}
+
+h2 a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #282e34;
+  color: #ECF0F1;
+  font-size: 0.75em;
+  padding: 1.563em 1.563em;
+  margin: 0;
+}
+
+h2 a:hover {
+  color: #6C7A89;
+}
+
+p {
+  position: relative;
+  text-align: left;
+  left: 12.5%;
+  width: 75%;
+  padding: 0.75em 0;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  padding: 1.563em;
+}
+
+footer {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background-color: #342e28;
+  padding: 0.25em;
+}
+
+#copyright {
+  color: #6C7A89;
+}
+
+img {
+  width: 100px;
+  height: 44px;
+  float: right;
+}
