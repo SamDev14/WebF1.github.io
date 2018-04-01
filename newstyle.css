@@ -95,18 +95,17 @@ li a:hover {
   text-transform: uppercase;
 }
 
-text .border .trans {
+.border .trans {
   background-color: transparent;
 }
 
 .gallery {
   background-color: #282e34;
   display: inline-block;
-  margin: 0.313em auto;
+  margin: 0.313em;
   border: 1px solid #ccc;
-  width: 11.25em;
-  height: 10.625em;
-
+  width: 12.5em;
+  height: 12em;
 }
 
 .gallery:hover {
@@ -114,8 +113,12 @@ text .border .trans {
 }
 
 .gallery img {
-   width: 11.25em;
+   width: 12.5em;
    height: 7.5em;
+}
+
+.desc {
+
 }
 
 h2 a {
@@ -151,7 +154,6 @@ p {
 video {
   max-width: 100%;
   height: auto;
-  padding: 1.563em;
 }
 
 footer {

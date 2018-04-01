@@ -30,7 +30,11 @@
     </section>
 
     <section class="section">
-      <video src="TuckBack.mp4" width="720" poster="posterimage.jpg" controls></video>
+      <video width="720" poster="posterimage.jpg" controls>
+        <source src="spinner.mp4" type="video/mp4">
+        <source src="spinner.webm" type="video/webm">
+        <track default src="track.vtt" label="English" kind="subtitles">
+      </video>
     </section>
 
     <section id="sub-footer">
@@ -39,7 +43,7 @@
 
     <footer>
       <p id="copyright">&copy; UP877426 | 2018
-      <a href="https://validator.w3.org/check?uri=referer"><img id="w3c" src="img/w3c-validated.png" alt="w3c Validation Icon"></a>
+      <a href="https://validator.w3.org/check?uri=referer"><img id="w3c" src="img/w3c-validated.png" alt="w3c Validation"></a>
     </footer>
 
   </body>
